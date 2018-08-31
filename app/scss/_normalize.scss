@@ -5,7 +5,9 @@
  * 2. Correct the line height in all browsers.
  * 3. Prevent adjustments of font size after orientation changes in IE and iOS.
  */
-
+* {
+  box-sizing: border-box;
+}
 html {
   font-family: sans-serif; /* 1 */
   line-height: 1.15; /* 2 */
